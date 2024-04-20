@@ -1,0 +1,18 @@
+*
+{
+    background-color: rgba(231, 158, 22, 0.555); 
+    color: rgb(41, 134, 28);
+
+}
+header{color: darksalmon;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: burlywood;
+width: 900px ;
+height: 100px;
+font-size: 35px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}

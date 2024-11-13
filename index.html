@@ -1,33 +1,138 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/img/favicon.ico"
+    />
     <title>GreenSync</title>
-    <link rel="stylesheet" href="estilos.css">
-</head>
-<body>
-    <header>GreenSync</header>
-    <nav><li>inicio</li>  
-        <li>Contactos</li>
-        <li>Objetivos</li>
-        <li>Planteamiento</li>
-        
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+
+  <body>
+    <nav class="nav">
+      <div class="nav-left">
+        <img class="nav-left-logo" src="assets/img/logo.svg" alt="Logo" />
+        <h2 class="nav-left-name">
+          Green<span class="nav-left-name-sync">Sync</span>
+        </h2>
+      </div>
+      <input type="checkbox" id="nav-toggle" />
+      <label for="nav-toggle">
+        <img class="nav-menu-icon" src="assets/img/menu.svg" alt="Logo" />
+      </label>
+      <ul class="nav-menu">
+        <li class="nav-menu-link"><a href="#">Inicio</a></li>
+        <li class="nav-menu-link"><a href="#objectives">Objetivos</a></li>
+        <li class="nav-menu-link"><a href="#">Planteamientos</a></li>
+        <li class="nav-menu-link"><a href="#">Contactos</a></li>
+      </ul>
     </nav>
-    <section>
-    <h1 id="title 1">Integrantes</h1>
-    <h2>
-        <br>Christian M 
-        <br>Michael G
-        <br>Christian S
-        <br>Samuel B
- 
-    </h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus quos quo pariatur consequuntur ea harum modi tempora nobis, maiores vel ratione recusandae voluptates eveniet velit iusto illo non repudiandae quae!    </p>
-<div id="title3">
-    <img src="logo2.jpg" alt="imagen de">
-</div>
-<button class="title2">Home</button>
-</section>
-</body>
+    <main class="main-container">
+      <div class="main-content">
+        <div>
+          <h3 class="main-content-bold">Presentamos</h3>
+          <p class="main-content-text">GreenSync</p>
+          <p class="main-content-text">
+            Un proyecto que combina tecnología avanzada con la pasión por el
+            cultivo de plantas. Nuestro sistema automatizado de cultivo,
+            respaldado por una aplicación móvil integrada, está diseñado para
+            revolucionar la forma en que se cultivan y se cuidan las plantas de
+            cannabis.<br />
+            Imagina un sistema inteligente que controla la iluminación, el riego
+            y el monitoreo ambiental de tus plantas, todo desde la palma de tu
+            mano.
+            <a href="#">Conoce Más</a>
+          </p>
+        </div>
+        <img class="mobile" src="assets/img/mobile.svg" alt="mobile" />
+      </div>
+    </main>
+    <section class="objectives" id="objectives">
+      <article class="objective-general">
+        <h2 class="objective-general-title">Objetivo General</h2>
+        <p class="objective-general-text">
+          Desarrollar un sistema automatizado de cultivo de marihuana que
+          optimice el crecimiento, la calidad y el rendimiento de las plantas,
+          utilizando tecnologías avanzadas y brindando a los usuarios control
+          remoto y asistencia guiada a través de una aplicación móvil
+          complementaria.
+        </p>
+      </article>
+      <article class="objectives-specific">
+        <h2 class="objectives-specific-title">Objetivos Especificos</h2>
+        <details class="objective-specific" name="objectives-specific">
+          <summary>Automatizar el control de factores ambientales</summary>
+          <ul class="objective-specific-items">
+            <li>
+              Desarrollar un sistema de riego automático que determine la
+              frecuencia y la cantidad de agua en función de las necesidades de
+              las plantas y las condiciones ambientales.
+            </li>
+            <li>
+              Integrar sensores para monitorear parámetros como temperatura,
+              humedad, pH y niveles de CO2.
+            </li>
+          </ul>
+        </details>
+        <details class="objective-specific" name="objectives-specific">
+          <summary>Crear una aplicación móvil intuitiva</summary>
+          <ul class="objective-specific-items">
+            <li>
+              Diseñar un panel de control que muestre información en tiempo real
+              sobre el estado de las plantas y las condiciones ambientales.
+            </li>
+            <li>
+              Proporcionar instrucciones detalladas sobre el cuidado y
+              mantenimiento de las plantas en cada etapa de crecimiento.
+            </li>
+          </ul>
+        </details>
+        <details class="objective-specific" name="objectives-specific">
+          <summary>Mejorar la eficiencia y la calidad del cultivo</summary>
+          <ul class="objective-specific-items">
+            <li>
+              Optimizar las condiciones de crecimiento para cada etapa del ciclo
+              de vida de la planta, maximizando el rendimiento y la calidad de
+              la cosecha.
+            </li>
+            <li>
+              Reducir la necesidad de monitoreo y control manual, ahorrando
+              tiempo y esfuerzo a los cultivadores.
+            </li>
+          </ul>
+        </details>
+        <details class="objective-specific" name="objectives-specific">
+          <summary>Generar un impacto positivo</summary>
+          <ul class="objective-specific-items">
+            <li>
+              Brindar a los cultivadores una herramienta poderosa para optimizar
+              sus cultivos y obtener mejores resultados.
+            </li>
+          </ul>
+        </details>
+      </article>
+    </section>
+    <section class="video-container">
+      <video class="video" src="assets/img/SpeechProyecto.mp4" controls></video>
+    </section>
+    <footer class="footer">
+      <div class="footer-left">
+        <img class="footer-left-logo" src="assets/img/logo.svg" alt="Logo" />
+        <h2 class="footer-left-name">
+          Green<span class="nav-left-name-sync">Sync</span>
+        </h2>
+      </div>
+      <div class="team-container">
+        <h4 class="team-title">Equipo</h4>
+        <ul class="team-members">
+          
+          <li class="team-members-member">Samuel Barato Benitez</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
